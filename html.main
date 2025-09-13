@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schöne Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* Grundstil */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #f2f2f2; /* sanftes Grau */
+      color: #333;
+      line-height: 1.6;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    header {
+      background-color: #ffffff;
+      padding: 20px 40px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    header h1 {
+      font-weight: 700;
+      color: #222;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin-right: 20px;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #0077ff;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      font-weight: 700;
+      margin-bottom: 20px;
+      color: #111;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    .card {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #e0e0e0;
+      color: #555;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meine Schöne Website</h1>
+    <nav>
+      <a href="#about">Über uns</a>
+      <a href="#services">Leistungen</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>Über uns</h2>
+      <div class="card">
+        <p>Wir gestalten moderne, elegante Websites, die sowohl stilvoll als auch benutzerfreundlich sind.</p>
+        <p>Unser Fokus liegt auf klaren Strukturen, angenehmen Farben und einer guten Performance.</p>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2>Leistungen</h2>
+      <div class="card">
+        <p>Webdesign & Entwicklung</p>
+      </div>
+      <div class="card">
+        <p>UI/UX Design</p>
+      </div>
+      <div class="card">
+        <p>Branding & Grafikdesign</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Kontakt</h2>
+      <div class="card">
+        <p>Schreiben Sie uns: kontakt@meinewebsite.de</p>
+        <p>Telefon: +49 123 456789</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Meine Schöne Website. Alle Rechte vorbehalten.
+  </footer>
+</body>
+</html>
